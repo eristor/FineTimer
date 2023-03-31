@@ -1,0 +1,26 @@
+.slider {
+    height: 35px;
+    border: 2px solid #0275d8;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.thumb {
+    background-color: #0275d8;
+    cursor: pointer;
+    width: 35px;
+    height: 100%;
+    outline: none;
+    border-radius: 50%;
+}
+
+.green {
+    border: 2px solid #11a57f;
+}
+
+.green .thumb {
+    background-color:
+        #11a57f;
+}

@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    background-color: #2a2c36;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    background-color: transparent;
+    color: white;
+    width: 80px;
+    border: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    transition: .5s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
